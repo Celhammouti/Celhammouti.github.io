@@ -7,7 +7,7 @@ website:
   
   title: "Chahid El Hammouti"
   navbar:
-    background: "#1D8A48"
+    background: "#AB8D3F"
     left:
       - href: index.qmd
         text: Home
@@ -15,8 +15,10 @@ website:
         menu:
           - href: docs/hobbies/football.qmd
             text: "Football"
+            target: "_blank"
           - href: docs/hobbies/chess.qmd
             text: "Chess"
+            target: "_blank"
     right:
       - href: docs/bookmarks.qmd
         text: Helpful Resources
