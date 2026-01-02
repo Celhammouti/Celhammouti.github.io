@@ -2,46 +2,98 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Mon portfolio</title>
+    <title>Mon Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
+            margin: 0;
+            padding: 0;
         }
-        h1, h2 {
-            color: #2c3e50;
+        header {
+            background-color: #2d3e50;
+            padding: 15px;
+            color: white;
+            text-align: center;
         }
-        .project {
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        section {
+            padding: 30px;
+        }
+        .project, .hobby {
             border: 1px solid #ddd;
-            padding: 10px;
-            margin-bottom: 10px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #f4f4f4;
+            border-top: 1px solid #ddd;
         }
     </style>
 </head>
 <body>
 
+<header>
     <h1>👋 Bonjour, je suis [Ton Prénom]</h1>
-    <p>Développeur / Étudiant / Passionné de tech</p>
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#projects">Projets</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-    <h2>🚀 Projets</h2>
+<section id="about">
+    <h2>À propos de moi</h2>
+    <p>Je suis [ton métier/tes études], passionné par [tes passions].</p>
+</section>
+
+<section id="projects">
+    <h2>🚀 Mes Projets</h2>
     <div class="project">
-        <h3>Projet 1</h3>
-        <p>Description du projet</p>
-        <a href="https://github.com/tonPseudo/projet1">Voir sur GitHub</a>
+        <h3>Projet A</h3>
+        <p>Description de ton projet A.</p>
+        <a href="https://github.com/tonPseudo/projetA">Voir le code</a>
     </div>
+    <div class="project">
+        <h3>Projet B</h3>
+        <p>Description de ton projet B.</p>
+        <a href="https://github.com/tonPseudo/projetB">Voir le code</a>
+    </div>
+</section>
 
-    <h2>🎯 Hobbies</h2>
-    <ul>
-        <li>Programmation</li>
-        <li>Jeux vidéo</li>
-        <li>Musique</li>
-    </ul>
+<section id="hobbies">
+    <h2>🎯 Mes Hobbies</h2>
+    <div class="hobby">
+        <h4>🎧 Musique</h4>
+        <p>Description courte.</p>
+    </div>
+    <div class="hobby">
+        <h4>🎮 Jeux vidéo</h4>
+        <p>Description courte.</p>
+    </div>
+</section>
 
+<section id="contact">
     <h2>📫 Contact</h2>
-    <p>Email : tonemail@mail.com</p>
+    <p>Email : <a href="mailto:tonemail@mail.com">tonemail@mail.com</a></p>
+</section>
+
+<footer>
+    © 2026 [Ton Prénom] — Tous droits réservés
+</footer>
 
 </body>
 </html>
+
 
