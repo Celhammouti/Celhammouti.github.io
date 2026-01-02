@@ -11,16 +11,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: Project
-        menu:
-            target: "_blank"
-      - text: Personal Projects
-        menu:
-            target: "_blank"
       - text: Hobbies
         menu:
-            text: "Chess"
+          - href: docs/hobbies/football.qmd
             text: "Football"
+          - href: docs/hobbies/chess.qmd
+            text: "Chess"
     right:
       - href: docs/bookmarks.qmd
         text: Helpful Resources
