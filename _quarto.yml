@@ -1,0 +1,43 @@
+project:
+  type: website
+  render:
+    - "**/*.qmd"
+
+website:
+  
+  title: "Chahid El Hammouti"
+  navbar:
+    background: "#1D8A48"
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Project
+        menu:
+            target: "_blank"
+      - text: Personal Projects
+        menu:
+            target: "_blank"
+      - text: Hobbies
+        menu:
+            text: "Chess"
+            text: "Football"
+    right:
+      - href: docs/bookmarks.qmd
+        text: Helpful Resources
+      - icon: github
+        href: https://github.com/Celhammouti
+        target: "_blank"
+  page-footer:
+    right: |
+      Website built with [Quarto](https://quarto.org/){.external target="_blank"}<br>
+      [Source Code](https://github.com/Celhammouti/Celhammouti.github.io){.external target="_blank"}
+  repo-url: https://github.com/Celhammouti/Celhammouti.github.io
+  repo-branch: main
+  reader-mode: true
+
+format:
+  html:
+    theme:
+      dark: solar
+      light: cosmo
+    css: styles.css

@@ -1,0 +1,24 @@
+---
+title: "Chahid El Hammouti"
+format: html
+from: markdown+emoji
+image: docs/img/profil.jpeg
+about:
+  template: trestles
+  image-width: 20em
+  image-shape: round
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/Celhammouti/
+      target: "_blank"
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/chahid-el-hammouti/
+      target: "_blank"
+---
+
+::: {.justify}
+
+Hi 
+:::
